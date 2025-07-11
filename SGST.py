@@ -798,7 +798,7 @@ if __name__ == '__main__':
     from dataset import HySpecNet11k
     from torch.utils.data import DataLoader
 
-    dataset_dir = '/home/deic/zuoxin/Dataset/HySpecNet11k'
+    dataset_dir = 'Dataset/HySpecNet11k'
     dataset_difficulty = 'easy'
     device = 'cuda'
     in_channels = 202
